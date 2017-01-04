@@ -4,6 +4,8 @@ Objective: Set up a featured data platform for processing pricing data on Hadoop
 For this project, I used the Hadoop Sandbox from Hortonworks.
 The data have been retrieved from here : https://www.prix-carburants.gouv.fr/rubrique/opendata/.
 We loaded yearly stock for current year plus 3 years of annual archives.
+To unzip the data, a bash script is available, just type in a terminal:
+$ bash ScriptUnzip.sh from this project.
 
 ## Hive script for creating table and loading data
 First, open your VM and start your HortonWorks Sandbox. Then from your browser, go to http://localhost:8080. Both Username and Password are maria_dev.
@@ -15,6 +17,8 @@ Let’s open the Hive View by clicking on the Hive button from the views menu. C
 
 To load the data into the tables, we have to execute the following queries:
 ![screenshot from 2017-01-04 22-20-38](https://cloud.githubusercontent.com/assets/23345653/21659672/2d7b1ad8-d2cc-11e6-8eb2-4eb44a6eded4.png)
+To check if the data was loaded, you can write for example the following code:
+SELECT * FROM prix_2016 LIMIT 10;
 
 ## SparkSQL notebook Zeppelin with visualization
 From your browser, go to http://localhost:9995.
