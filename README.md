@@ -5,7 +5,7 @@
 The data have been retrieved from here : https://www.prix-carburants.gouv.fr/rubrique/opendata/.
 We loaded yearly stock for current year plus 3 years of annual archives.
 
-- Fields are in this order:
+-- Fields are in this order:
 * id pdv (point of sales),
 * cp (zip code),
 * pop (type of population, R: rural, A: urban, etc.)
@@ -15,7 +15,7 @@ We loaded yearly stock for current year plus 3 years of annual archives.
 * id carburant (gas id)
 * nom carburant (gas label)
 * prix (price in millieuros)
-
+-
 * To unzip the data, a shell script is available, just type in your terminal:
 $ bash ScriptUnzip.sh from this project.
 A python script is also provided to convert xml data into csv format, just type in your terminal:
