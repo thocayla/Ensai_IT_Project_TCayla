@@ -4,8 +4,10 @@ Objective: Set up a featured data platform for processing pricing data on Hadoop
 For this project, I used the Hadoop Sandbox from Hortonworks.
 The data have been retrieved from here : https://www.prix-carburants.gouv.fr/rubrique/opendata/.
 We loaded yearly stock for current year plus 3 years of annual archives.
-To unzip the data, a bash script is available, just type in a terminal:
+To unzip the data, a bash script is available, just type in your terminal:
 $ bash ScriptUnzip.sh from this project.
+A python script is also a available to convert xml data into csv format, just type in your terminal:
+$ python extract_xml.py filename.xml from this project.
 
 ## Hive script for creating table and loading data
 First, open your VM and start your HortonWorks Sandbox. Then from your browser, go to http://localhost:8080. Both Username and Password are maria_dev.
