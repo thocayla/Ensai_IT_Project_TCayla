@@ -1,6 +1,6 @@
 # IT Tools for Big Data - Project
 
-Objective: Set up a featured data platform for processing pricing data on Hadoop.
+* Objective: Set up a featured data platform for processing pricing data on Hadoop.
 For this project, I used the Hadoop Sandbox from Hortonworks.
 The data have been retrieved from here : https://www.prix-carburants.gouv.fr/rubrique/opendata/.
 We loaded yearly stock for current year plus 3 years of annual archives.
