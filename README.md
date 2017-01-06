@@ -33,7 +33,7 @@ $ python extract_xml.py filename.xml from this project.
 
 * To load the data into the tables, we have to execute the following queries:
 ![screenshot from 2017-01-04 22-20-38](https://cloud.githubusercontent.com/assets/23345653/21659672/2d7b1ad8-d2cc-11e6-8eb2-4eb44a6eded4.png)
-To check if the data was loaded, you can write for example the following code:
+To check if the prix_2016 data was well loaded, you can write for example the following code:
 SELECT * FROM prix_2016 LIMIT 10;
 
 
