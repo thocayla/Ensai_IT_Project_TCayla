@@ -40,6 +40,6 @@ SELECT * FROM prix_2016 LIMIT 10;
 ## SparkSQL Notebook Zeppelin with visualization
 
 From your browser, go to http://localhost:9995.
-Then, you can create a new notebook called Ensai_Project. All the results and comments are described in the file Ensai_Project.json, written in SparkSQL.
+Then, you can import the Zeppelin Notebook ZeppelinNotebook.json, written in SparkSQL.
 
 # End
